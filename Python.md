@@ -3887,6 +3887,12 @@ To show the dependencies of a package, you use the following command:
 pip show <package_name>
 ```
 
+To execute a shell command on a jupyter notebook, we have to use the exclamation mark - `!` - before our code:
+
+```python
+!pip install <package_name>
+```
+
 <hr>
 <hr>
 
