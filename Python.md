@@ -14,7 +14,7 @@
       - [`in` operator](#in-operator)
       - [The `find` method](#the-find-method)
       - [The `index` method](#the-index-method)
-    - [Removing white space from the beginning and end of strings](#removing-white-space-from-the-beginning-and-end-of-strings)
+    - [Removing unwanted characters from the beginning and end of a string](#removing-unwanted-characters-from-the-beginning-and-end-of-a-string)
     - [`startswith`](#startswith)
     - [`count`](#count)
     - [`replace`](#replace)
@@ -460,18 +460,21 @@ Note that the difference between `find` and `index` is that `index` raises an ex
 
 <hr>
 
-### Removing white space from the beginning and end of strings
+### Removing unwanted characters from the beginning and end of a string
 
-To remove white space (spaces, tabs, or newlines) from the beginning and end of a string, we can use the `strip` method:
+The `.strip()` method removes punctuation marks, specific symbols, or other unwanted characters from both ends of the string. By default, it removes white space (spaces, tabs, or newlines) from the beginning and end of a string:
 
 ```py
 line = '  Here we go  '
-
 print(line.strip())
 #'Here we go'
+
+line = '-Here-we-go-'
+print(line.strip("-"))
+# Here-we-go
 ```
 
-The `rstrip` method strips white spaces from the right side of a string:
+The `rstrip` method strips the unwanted characters from the right side of a string:
 
 ```py
 line = '  Here we go  '
@@ -480,7 +483,7 @@ print(line.rstrip())
 #   Here we go
 ```
 
-The `lstrip` method strips white spaces from the left side of a string:
+The `lstrip` method strips unwanted characters from the left side of a string:
 
 ```py
 line = '  Here we go  '
