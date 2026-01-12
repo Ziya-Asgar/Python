@@ -124,7 +124,8 @@
     - [Deleting set elements](#deleting-set-elements)
     - [Equality of sets](#equality-of-sets)
   - [List, Set, and Dictionary Comprehensions](#list-set-and-dictionary-comprehensions)
-  - [Python Package index and pip](#python-package-index-and-pip)
+  - [External Python packages](#external-python-packages)
+    - [`pip`](#pip)
   - [Virtual Environments](#virtual-environments)
     - [Creating a virtual environment](#creating-a-virtual-environment)
     - [Activating and deactivating a virtual environment](#activating-and-deactivating-a-virtual-environment)
@@ -3390,15 +3391,17 @@ print(result)
 <hr>
 <hr>
 
-## Python Package index and pip
+## External Python packages
 
 Python has a rich standard library that you can use immediately in your project. In case you need a package that isn’t available in the standard library, you can find it on the Python Package Index (pypi.org).
 
 The Python Package Index (PyPI) is the largest Python repository. It contains many Python packages developed and maintained by the Python community.
 
-pip is the package installer for Python. Pip allows you to install packages from PyPI and other repositories.
+### `pip`
 
-Python comes with pip by default. To check if pip is available on your computer, you can open the command prompt (or Powershell) on Windows and type the following command:
+Pip is the package installer for Python. Pip allows you to install packages from PyPI and other repositories.
+
+Python comes with `pip` by default. To check if pip is available on your computer, you can open the command prompt (or Powershell) on Windows and type the following command:
 
 ```
 pip --version
