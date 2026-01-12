@@ -126,6 +126,7 @@
   - [List, Set, and Dictionary Comprehensions](#list-set-and-dictionary-comprehensions)
   - [External Python packages](#external-python-packages)
     - [`pip`](#pip)
+    - [`uv`](#uv)
   - [Virtual Environments](#virtual-environments)
     - [Creating a virtual environment](#creating-a-virtual-environment)
     - [Activating and deactivating a virtual environment](#activating-and-deactivating-a-virtual-environment)
@@ -3447,6 +3448,22 @@ To execute a shell command on a jupyter notebook, we have to use the exclamation
 
 ```python
 !pip install <package_name>
+```
+
+<hr>
+
+### `uv`
+
+`uv` is a fast Python package and project manager. There are different ways to install `uv`. However, considering that python comes with `pip`, one easy way to install `uv` is to use the below command:
+
+```sh
+pip install uv
+```
+
+To run a python code (in a `.py` file) with `uv`, we can use the below code:
+
+```sh
+uv run file_name.py
 ```
 
 <hr>
