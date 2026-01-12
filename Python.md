@@ -3401,7 +3401,7 @@ pip is the package installer for Python. Pip allows you to install packages from
 Python comes with pip by default. To check if pip is available on your computer, you can open the command prompt (or Powershell) on Windows and type the following command:
 
 ```
-pip --V
+pip --version
 ```
 
 To install a package from PyPI, you use the following command on Windows:
