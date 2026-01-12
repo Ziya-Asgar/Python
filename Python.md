@@ -4,7 +4,7 @@
   - [Some Useful Links](#some-useful-links)
   - [Intro](#intro)
   - [Modules](#modules)
-  - [Creating and assigning to variables](#creating-and-assigning-to-variables)
+  - [Variables](#variables)
   - [Strings](#strings)
     - [Creating strings](#creating-strings)
     - [Accessing strings](#accessing-strings)
@@ -234,7 +234,7 @@ The command `from <module_name> import *` imports all variables and functions fr
 
 <hr>
 
-## Creating and assigning to variables
+## Variables
 
 An important characteristic of the Python language is the consistency of its object model. Every number, string, data structure, function, class, module, and so on exists in the Python interpreter in its own “box,” which is referred to as a Python object. Each object has an associated type (e.g., integer, string, or function) and internal data.
 
